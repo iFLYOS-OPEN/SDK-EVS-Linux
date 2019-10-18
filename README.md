@@ -32,7 +32,7 @@ $sudo apt install -y cmake libcurl4-openssl-dev libmbedtls-dev libsqlite3-dev li
 ```bash
 $mkdir ~/project
 $cd ~/project
-$git clone https://github.com/shawn246/rpi.git
+$git clone https://github.com/iFLYOS-OPEN/SDK-EVS-Linux.git
 ```
 
 * 编译此项目
