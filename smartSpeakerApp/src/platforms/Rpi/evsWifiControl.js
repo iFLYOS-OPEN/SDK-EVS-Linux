@@ -1,0 +1,1 @@
+module.exports.EVSWifiControl = require('wpa_client').WpaClient;

@@ -1,0 +1,11 @@
+{
+  "playerBin":"__PLAYER_BIN__",
+  "deviceID": "",
+  "clientID": "__CLIENT_ID__",
+  "clientSecrect": "__CLIENT_SECRET__",
+  "snowboyRes": "__SNOWBOY_RES__",
+  "snowboyModel": "__SNOWBOY_MODEL__",
+  "dbPath":"__DB_PATH__",
+  "bleName": "iflyOS-a01",
+  "soundDir": "__SOUND_DIR__"
+}

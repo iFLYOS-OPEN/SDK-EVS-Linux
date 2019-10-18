@@ -1,0 +1,18 @@
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_SYSTEM_PROCESSOR arm)
+
+set(CMAKE_C_COMPILER /usr/bin/cc)
+set(CMAKE_CXX_COMPILER /usr/bin/c++)
+
+set(SNOWBOY ON)
+set(WPA_CLIENT ON)
+
+add_compile_options(-march=armv7-a)
+
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -save-temps")
+add_definitions("-DIFLYOS_PLATFORM=\"Rpi\"")
+add_definitions("-D_GLIBCXX_USE_CXX11_ABI=0")
+message("append CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}")
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR})
+
+set(IOTJS_PROFILE "${CMAKE_CURRENT_LIST_DIR}/rpi.profile")

@@ -1,0 +1,12 @@
+{
+  "name": "smartSpeakerApp",
+  "version": "1.0.0",
+  "scripts": {
+    "iotjs": "/etc/iflyosBoards/linuxHost/build/jsruntime/bin/iotjs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/plugin-transform-block-scoping": "^7.4.4",
+    "jsdoc": "^3.6.2"
+  }
+}
